@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8"></meta>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+    <meta name="viewport" content="width=device-width, intitial=scale=1">
+    <title>
+        Quick Ticket Entry|Goodyear Commercial Tire & Service
+        Centers
+    </title>
+    <script src="https://d37gvrv0wt4s1.cloudfront.net/js/v1.4/rollbar.min.js"
+            async=""></script>
+    <script src="//cdn.rawgit.com/jpillora/xdomain/0.7.3/dist/xdomain.min.js"></script>
+    <script>
+        xdomain.slaves({
+            "https://testservices.goodyearctsc.com": "/api/proxy.html",
+            "https://services.goodyearctsc.com": "/api/proxy.html"
+            //"http://wfservices.cloudapp.net": "/api/proxy.html"
+        });
+
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.4/handlebars.min.js" type = "text/javascript">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+    <!--[if IE]>
+    <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.3/jquery.xdomainrequest.min.js'></script>
+    <![endif]-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/js/bootstrap-editable.min.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.validate.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.validate.additional-methods.min.js" type="text/javascript"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js"></script>
+    <script src="/Scripts/jquery.maskedinput.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.scrollto.js" type="text/javascript"></script>
+    <script src="/Scripts/bootstrap-growl.min.js" type="text/javascript"></script>
+    <script src="/Scripts/bootbox.min.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.blockUI.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.cookie.js" type="text/javascript"></script>
+    <script src="/Scripts/bindWithDelay.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.parsequery.min.js" type="text/javascript"></script>
+    <script src="/Scripts/displaywait.js" type="text/javascript"></script>
+    <script src="/Scripts/security.js" type="text/javascript"></script>
+    <script src="/Scripts/datetime.js" type="text/javascript"></script>
+    <script src="/Scripts/form-search.js" type="text/javascript"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+     <![endif]-->
+    <link href="/Scripts/intranet.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
+    <link id="bootstrapTheme" href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/spacelab/bootstrap.min.css" rel="stylesheet" media="screen, print">
+    <link href="/Content/jquery-ui-autocomplete.css" rel="stylesheet" type="text/css">
+    <link href="/css/custom.css" rel="stylesheet" type="text/css">
+   <style> .dropdown-submenu {
+    position: relative;
+    }
+
+    .dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+    }
+
+    .dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+    }
+
+    .dropdown-submenu > a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+    }
+
+    .dropdown-submenu:hover > a:after {
+    border-left-color: #fff;
+    }
+
+    .dropdown-submenu.pull-left {
+    float: none;
+    }
+
+    .dropdown-submenu.pull-left > .dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+    }
+    /*# sourceMappingURL=bootstrap.css.map */
+    </style>
+  </head>
+
+
+
+
+<body>
+        <div class="container">
+            <div class="row">
+                <h2></h2>
+                <hr>
+                <div class="dropdown">
+                    <a id="dLabel" role="button" data-toggle="dropdown" class="btn btn-primary" data-target="#" href="/page.html">
+                        Action <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                        <li><a href="#">Create & Start</a></li>
+                        <li><a href="#">Create & Complete</a></li>
+                        <li><a href="#">Create Only</a></li>
+                        <li class="divider"></li>
+                       <!--1 Start-->
+                         <li class="dropdown-submenu">
+                        <a tabindex="-1" href="#">Add Time</a>
+                          <ul class="dropdown-menu">
+                              <li><a tabindex="-1">+5m</a></li>
+                              <li><a tabindex="-1">+10m</a></li>
+                              <li><a tabindex="-1">+15m</a></li>
+                          </ul> 
+                          </li>
+                        <!--1st Menu END-->
+                            <li class="dropdown-submenu">
+                                <a tabindex="-1" href="#">Subtract Time</a>
+                                <ul class="dropdown-menu">
+                                    <li><a tabindex="-1">-5m</a></li>
+                                    <li><a tabindex="-1">-10m</a></li>
+                                    <li><a tabindex="-1">-15m</a></li>
+                                </ul>
+                                </li>
+                        <!--2nd menu END-->
+                                <li class="divider"></li>
+                                <li class="dropdown-submenu">
+                                    <a tabindex="-1" href="#">Log Contact</a>
+                                    <ul class="dropdown-menu">
+                                     <li><a tabindex="-1">Phone etc, from database</a></li>
+                                 </ul> 
+                                 </li>
+                        <!--3rd Menu END-->
+                        <li class="divider"></li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Add Note</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1">Note Dialog</a></li>
+                            </ul>
+                            </li>
+                        <!--4th Menu End-->
+                        <li class="divider"></li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">On-Hold</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1">Note Dialog</a></li>
+                            </ul>
+                            </li>
+                    <!--5th Menu End-->
+                        <li class="divider"></li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Abandon</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1">Note Dialog</a></li>
+                            </ul>
+                            </li>
+                    <!--6th Menu End-->
+                        <li class="divider"></li>
+                        <li class="dropdown-submenu">
+                            <a tabindex="-1" href="#">Remove</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1"></a></li>
+                            </ul>
+                            </li>
+                    <!--7th Menu End-->
+                    </ul><!--Main Menu End-->
+                        
+               </div>        
+            </div>
+        </div>
+    </body>
+</html>
