@@ -9,16 +9,13 @@ and open the template in the editor.
         <meta charset="utf-8"></meta>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
         <meta name="viewport" content="width=device-width, intitial=scale=1">
-        <title>Quick Ticket Entry|Goodyear Commercial Tire & Service 
-            Centers</title>
+        <title>Quick Ticket Entry</title>
         <script src="https://d37gvrv0wt4s1.cloudfront.net/js/v1.4/rollbar.min.js"
         async=""></script>
         <script src="//cdn.rawgit.com/jpillora/xdomain/0.7.3/dist/xdomain.min.js"></script>
         <script>
             xdomain.slaves({
-                "https://testservices.goodyearctsc.com": "/api/proxy.html",
-                "https://services.goodyearctsc.com": "/api/proxy.html"
-                //"http://wfservices.cloudapp.net": "/api/proxy.html"
+            
             });
             
             <script src = "https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.4/handlebars.min.js" type = "text/javascript">
